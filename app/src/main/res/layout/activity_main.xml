@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@style/Base.TextAppearance.AppCompat.Medium"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    android:fadingEdge="none"
+    android:focusable="true"
+    tools:context=".MainActivity">
+
+    <ervin.flippableicon.FlippableIcon
+        android:id="@+id/icon1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="84dp"
+        android:layout_marginTop="80dp"
+        app:Image1="@drawable/ic_android"
+        app:Image2="@drawable/ic_apple"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ervin.flippableicon.FlippableIcon
+        android:id="@+id/icon2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="84dp"
+        android:layout_marginTop="300dp"
+        app:Image1="@drawable/ic_sun"
+        app:Image2="@drawable/ic_moon"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</RelativeLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="FlippableIcon">
+        <attr name="Image1" format="reference" />
+        <attr name="Image2" format="reference" />
+    </declare-styleable>
+
+</resources>
